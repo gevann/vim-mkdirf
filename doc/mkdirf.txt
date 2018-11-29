@@ -1,0 +1,29 @@
+*mkdirf.txt* Make new files includes new directories
+
+Author:  Graeme Nathan
+License: Same terms as Vim itself (see |license|)
+
+INTRODUCTION                                    *mkdirf*
+
+This plugin provides a fuzzy-finder way to create a new file, including any
+necessary directories, from within vim. If the file already exists, it opens
+that file in the specified buffer, otherwise it creates the file and opens it
+for editing.
+
+*Emkdirf*
+Emkdirf          Open or create the specified file in the current buffer.
+
+*Smkdirf*
+Smkdirf          Open or create the specified file a new split buffer.
+
+*Vmkdirf*
+Vmkdirf          Open or create the specified file a new vertically-split buffer.
+
+*<leader>ne*
+<leader>ne       Open or create the specified file in the current buffer.
+
+*<leader>ns*
+<leader>ns       Open or create the specified file a new split buffer.
+
+*<leader>nv*
+<leader>nv       Open or create the specified file a new vertically-split buffer.
